@@ -1,0 +1,58 @@
+
+.content {
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 1px;
+}
+.back1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Panama_City_2016_Flut.jpg/1280px-Panama_City_2016_Flut.jpg");
+}
+.back2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Panama_City_2016.jpg/1280px-Panama_City_2016.jpg"); 
+}
+.back3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png"); 
+}
+#preload div {
+  display: none;
+}
+
+.page {
+  height: 500px;
+  border-radius: 1%;
+  margin: 15% 10%;
+  background-color: rgba(0, 82, 147, 0.83);
+  color: rgb(105, 8, 26);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.navbar {
+  background-color: rgba(0, 82, 147, 0.95);
+  border: 1px solid rgba(0, 82, 147, 1);
+}
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 60px;
+  height: 60px;
+  padding-top: 0;
+  font-weight: 150%;
+  color: white!important;
+}
+.navbar-item a{
+  background-color: rgb(0, 62, 105);
+  margin: 0px 1px;
+  font-size: 140%;
+  border-radius: 7%;
+}
+
+.anchor {
+  display:inline-block;
+  padding-top: 120px;
+  margin-top: -120px;
+}
