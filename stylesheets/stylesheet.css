@@ -10,19 +10,7 @@
   padding: 1px;
 }
 .back1 {
-  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Panama_City_2016_Flut.jpg/1280px-Panama_City_2016_Flut.jpg");*/
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Panama_City_2016_Flut.jpg/320px-Panama_City_2016_Flut.jpg");
-}
-.back2 {
-  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Panama_City_2016.jpg/1280px-Panama_City_2016.jpg");*/
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Panama_City_2016.jpg/320px-Panama_City_2016.jpg");
-}
-.back3 {
-  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1280px-Flag_of_Panama.svg.png");*/
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/320px-Flag_of_Panama.svg.png");
-}
-#preload div {
-  display: none;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Panama_City_2016_Flut.jpg/1280px-Panama_City_2016_Flut.jpg");
 }
 
 .page {
@@ -59,4 +47,9 @@
   display:inline-block;
   padding-top: 120px;
   margin-top: -120px;
+}
+
+.route_animation {
+  margin-left: 10%;
+  max-height: 300px;
 }

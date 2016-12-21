@@ -14,8 +14,8 @@ function controlBackground() {
 
 $('document').ready(function(){
   
-  $(window).scroll(controlBackground);
-  $(window).resize(controlBackground);
+  //$(window).scroll(controlBackground);
+  //$(window).resize(controlBackground);
 }
 );
 
