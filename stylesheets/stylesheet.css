@@ -1,3 +1,18 @@
+/*@import url(wrapped_logo.css);*/
+
+@font-face {
+    font-family: "BananaYeti";
+    src: url("../fonts/Banana Yeti Bold-trial.ttf") format("truetype");
+}
+@font-face {
+    font-family: "BananaYeti2";
+    src: url("../fonts/Banana Yeti Regular-trial.ttf") format("truetype");
+}
+
+h1 {
+    font-family: "BananaYeti", Georgia;
+    font-size: 600%;
+}
 
 .content {
   -webkit-transition: background-image 0.2s ease-in-out;
@@ -28,12 +43,22 @@
   background-color: rgba(0, 82, 147, 0.95);
   border: 1px solid rgba(0, 82, 147, 1);
 }
+.navbar-brand {
+  font-family: "BananaYeti", Georgia;
+  font-weight: 180%;
+  font-size: 180%;
+  padding-top: 0px;
+}
+.navbar-nav li a {
+  font-weight: 120%;
+  font-family: "Times New Roman", BananaYeti2, Georgia;
+  font-size: 130%;
+  padding-top: 0px;
+}
 .navbar-brand,
 .navbar-nav li a {
-  line-height: 60px;
-  height: 60px;
-  padding-top: 0;
-  font-weight: 150%;
+  line-height: 45px;
+  height: 45px;
   color: white!important;
 }
 .navbar-item a{
