@@ -1,17 +1,15 @@
-/*@import url(wrapped_logo.css);*/
-
-@font-face {
-    font-family: "BananaYeti";
-    src: url("../fonts/Banana Yeti Bold-trial.ttf") format("truetype");
-}
-@font-face {
-    font-family: "BananaYeti2";
-    src: url("../fonts/Banana Yeti Regular-trial.ttf") format("truetype");
-}
+@import url(fonts.css);
+@import url(navigation.css);
 
 h1 {
-    font-family: "BananaYeti", Georgia;
-    font-size: 600%;
+  font-family: "BananaYeti", "Times New Roman", Georgia;
+  font-size: 1150%;
+}
+
+h2 {
+  font-family: "Della Respira", "Times New Roman", Georgia;
+  font-size: 300%;
+  margin: 4vh 0vw;
 }
 
 .content {
@@ -22,59 +20,66 @@ h1 {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding: 1px;
 }
+
 .back1 {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Panama_City_2016_Flut.jpg/1280px-Panama_City_2016_Flut.jpg");
 }
 
-.page {
-  height: 500px;
-  border-radius: 1%;
-  margin: 15% 10%;
-  background-color: rgba(0, 82, 147, 0.83);
-  color: rgb(105, 8, 26);
+.page:first-of-type {
+  margin-top: 25vh;
+}
+.page:last-of-type {
+  margin-bottom: 10vh;
+}
+.page:not(:first-of-type) {
+  margin-top: 20vh;
+  background-color: rgba(255, 255, 255, 0.83);
+  /*background-color: rgba(0, 82, 147, 0.83);*/
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
-
-.navbar {
-  background-color: rgba(0, 82, 147, 0.95);
-  border: 1px solid rgba(0, 82, 147, 1);
-}
-.navbar-brand {
-  font-family: "BananaYeti", Georgia;
-  font-weight: 180%;
-  font-size: 180%;
-  padding-top: 0px;
-}
-.navbar-nav li a {
-  font-weight: 120%;
-  font-family: "Times New Roman", BananaYeti2, Georgia;
-  font-size: 130%;
-  padding-top: 0px;
-}
-.navbar-brand,
-.navbar-nav li a {
-  line-height: 45px;
-  height: 45px;
-  color: white!important;
-}
-.navbar-item a{
-  background-color: rgb(0, 62, 105);
-  margin: 0px 1px;
-  font-size: 140%;
-  border-radius: 7%;
+.page {
+  font-family: "Lato", "Times New Roman", Georgia;
+  text-align: center;
+  min-height: 75vh;
+  border-radius: 1%;
+  color: rgb(210, 16, 52);
+  padding: 0vh 2vw;
 }
 
-.anchor {
-  display:inline-block;
-  padding-top: 120px;
-  margin-top: -120px;
+.page p, .page li, .page ul{
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+.page p{
+  font-size: 110%;
+  text-indent: 7vw;
+}
+.page ul {
+  font-size: 110%;
+  list-style-type: square;
+}
+.page li {
+  margin-left: 3vw;
+}
+
+.page .more {
+  margin-right: 5vw;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.more a:link, .more a:visited{
+  color: rgb(210, 16, 52);
+} 
+
+.more a:hover, .more a:active {
+  color: rgb(255, 42, 111);
+  text-decoration: none;
 }
 
 .route_animation {
-  margin-left: 10%;
   max-height: 300px;
 }

@@ -1,0 +1,34 @@
+.navbar {
+  background-color: rgba(0, 82, 147, 0.95);
+  border: 1px solid rgba(0, 82, 147, 1);
+}
+.navbar-brand {
+  font-family: "BananaYeti", "Times New Roman", Georgia;
+  font-weight: 180%;
+  font-size: 180%;
+  padding-top: 6px;
+}
+.navbar-nav li a {
+  font-weight: 120%;
+  font-family: "Della Respira", "Times New Roman", Georgia;
+  font-size: 130%;
+}
+.navbar-brand,
+.navbar-nav li a {
+  color: white!important;
+}
+.navbar-item a{
+  background-color: rgb(0, 62, 105);
+  margin: 0px 1px;
+  font-size: 140%;
+  border-radius: 7%;
+}
+
+.icon-bar {
+  background-color: white!important;
+}
+.anchor {
+  display:inline-block;
+  padding-top: 120px;
+  margin-top: -120px;
+}

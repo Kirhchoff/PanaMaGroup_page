@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta content="chrome=1" http-equiv="X-UA-Compatible">
     <meta content="PanaMa Group home page" name="description">
+    <link href="stylesheets/reset.css" rel="stylesheet">
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type='text/css' href='http://fonts.googleapis.com/css?family=Della+Respira:regular:latin'>
     <link href="stylesheets/stylesheet.css" media="screen" rel="stylesheet" type="text/css">
     <script src="scripts/main.js"></script>
     <title>PanaMa Group</title>
@@ -30,10 +30,9 @@
     </div>
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="navbar-nav nav">
-        <li class="navbar-item"><a href="#">Start</a></li>
         <li class="navbar-item"><a href="#goal">Nasz cel</a></li>
         <li class="navbar-item"><a href="#meet_us">Poznaj nas</a></li>
-        <li class="navbar-item"><a href="#mlyn">Młyn Boży</a></li>
+        <li class="navbar-item"><a href="#mlyn">Boży Młyn</a></li>
         <li class="navbar-item"><a href="#news">Aktualności</a></li>
         <li class="navbar-item"><a href="#contact">Kontakt</a></li>
       </ul>
@@ -41,41 +40,60 @@
   </nav>
  </div>
 
-  <div>
-    <div class="page" id="page1">
-      <div><a class="anchor" name="home"></a>
-        <h1 class="title">PanaMa Group</h1>
-        <!--<div id='warped'>
-          <span class='w0'>P</span><span class='w1'>a</span><span class='w2'>n</span><span class='w3'>a</span><span class='w4'>M</span><span class='w5'>a</span><span class='w6'> </span><span class='w7'>G</span><span class='w8'>r</span><span class='w9'>o</span><span class='w10'>u</span><span class='w11'>p</span>
-        </div>-->
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-2 col-s-1 col-xs-0"></div>
+    <div class="col-md-8 col-s-10 col-xs-12">
+      <div class="page" id="page1">
+        <div><a class="anchor" name="home"></a>
+          <h1 class="title">PanaMa Group</h1>
+        </div>
+      </div>
+      <div class="page">
+        <div><a class="anchor" name="goal"></a>
+          <h2>Nasz cel</h2>
+          <img class="route_animation" src="images/route.gif">
+        </div>
+      </div>
+      <div class="page"><a class="anchor" name="meet_us"></a>
+        <div>
+          <h2>Poznaj nas</h2>
+          <p>
+            PanaMa Group to grupa młodych osób zebranych przy Parafii św. Jana Kantego w Krakowie, które chcą pozyskać fundusze na wyjazd do Panamy na ŚDM w 2019r. Chcieliby oni swoją pracą wolontaryjną pomóc zarówno osobom starszym, jak i rodzinom z małymi dziećmi. Wszystkie świadczone przez nich działania są "opłacane" dobrowolną ofiarą.
+          </p>
+          <ul>Nasza oferta obejmuje:
+            <li>prowadzenie w dawnej kaplicy punktu pomocy przy obsłudze komórek, laptopów i innych urządzeń elektronicznych dla osób starszych,</li>
+            <li>pomoc w zakupach,</li>
+            <li>sprzątanie osobom potrzebującym (zmiana firanek, odkurzanie itp.),</li>
+            <li>wyprowadzanie psów osobom starszym i chorym,</li>
+            <li>pilnowanie dzieci,</li>
+            <li>wynoszenie makulatury i złomu,</li>
+            <li>wyprzedaże "garażowe",</li>
+            <li>pomoc w nauce młodszym dzieciom,</li>
+            <li>dużur w kawiarni parafialnej :),</li>
+            <li>wyświetnlanie filmów religijnych,</li>
+            <li>głośne czytanie.</li>
+          </ul>
+          <p class="more"><a href="#meet_us">Więcej...</a></p>
+        </div>
+      </div>
+      <div class="page"><a class="anchor" name="mlyn"></a>
+        <div>
+          <h2>Boży Młyn</h2>
+        </div>
+      </div>
+      <div class="page"><a class="anchor" name="news"></a>
+        <div>
+          <h2>Aktualności</h2>
+        </div>
+      </div>
+      <div class="page"><a class="anchor" name="contact"></a>
+        <div>
+          <p>Skontaktuj się z nami jeśli podobają Ci się nasze pomysły i chciałbyś nas wesprzeć lub do nas dołączyć!</p>
+        </div>
       </div>
     </div>
-    <div class="page">
-      <div><a class="anchor" name="goal"></a>
-        <h2>Nasz cel</h2>
-        <img class="route_animation" src="images/route.gif">
-      </div>
-    </div>
-    <div class="page"><a class="anchor" name="meet_us"></a>
-      <div>
-        <h2>Poznaj nas</h2>
-      </div>
-    </div>
-    <div class="page"><a class="anchor" name="mlyn"></a>
-      <div>
-        <h2>Młyn Boży</h2>
-      </div>
-    </div>
-    <div class="page"><a class="anchor" name="news"></a>
-      <div>
-        <h2>Aktualności</h2>
-      </div>
-    </div>
-    <div class="page"><a class="anchor" name="contact"></a>
-      <div>
-        <p>Skontaktuj się z nami jeśli podobają Ci się nasze pomysły i chciałbyś nas wesprzeć lub do nas dołączyć!</p>
-      </div>
-    </div>
+   </div>
   </div>
   
   <!--<div id="preload">
