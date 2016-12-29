@@ -6,6 +6,7 @@ function createDynamicBack() {
   ._dynamic_back{0}:after{background-image:url({2});background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover;z-index:-2;{3}}";
   var _faderTmpl="._dynamic_back_fader:before{opacity:0;transition:opacity {0}s;}";
   var _current_back = 0;
+  var _inProgress = false;
 
   function _setTransitionEndHandler() {    
     $(_targetSel).on("transitionend webkitTransitionEnd", function(e){
@@ -15,6 +16,7 @@ function createDynamicBack() {
       $(this).addClass("_dynamic_back"+nextIndex);
       $(this).removeClass("_dynamic_back_fader");
       $(this).removeClass("_dynamic_back"+currentIndex);
+      _inProgress = false;
     });    
   };
   
@@ -65,8 +67,11 @@ function createDynamicBack() {
   };
   
   function nextBack(){
-    _current_back++;
-    $(_targetSel).addClass("_dynamic_back_fader");
+    if (!_inProgress){
+      _current_back++;
+      _inProgress = true;
+      $(_targetSel).addClass("_dynamic_back_fader");
+    }
   };
   
   return {
