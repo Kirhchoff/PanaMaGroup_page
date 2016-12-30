@@ -4,6 +4,7 @@
 h1 {
   font-family: "BananaYeti", "Times New Roman", Georgia;
   font-size: 1150%;
+  text-shadow: 4px 3px 8px #003;
 }
 
 h2 {
@@ -14,10 +15,6 @@ h2 {
 
 .content {
   /*background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover;*/
-}
-
-.back1 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Panama_City_2016_Flut.jpg/1280px-Panama_City_2016_Flut.jpg");
 }
 
 .page:first-of-type {
