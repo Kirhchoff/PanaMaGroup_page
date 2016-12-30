@@ -1,10 +1,16 @@
 @import url(fonts.css);
 @import url(navigation.css);
 
-h1 {
+.title h1{
   font-family: "BananaYeti", "Times New Roman", Georgia;
   font-size: 1150%;
-  text-shadow: 4px 3px 8px #003;
+  text-shadow: 2px 1px 3px #003;
+}
+
+.title h2{
+  font-family: "BananaYeti", "Times New Roman", Georgia;
+  font-size: 560%;
+  text-shadow: 2px 1px 3px #003;
 }
 
 h2 {
