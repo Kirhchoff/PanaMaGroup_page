@@ -13,14 +13,26 @@
   text-shadow: 2px 1px 3px #003;
 }
 
+.title h3{
+  font-family: "Della Respira", "Times New Roman", Georgia;
+  font-size: 1000%;
+  text-shadow: 2px 1px 3px #003;
+}
+
+.title {
+  text-align: center;
+  color: rgb(210, 16, 52);
+}
+
 h2 {
   font-family: "Della Respira", "Times New Roman", Georgia;
   font-size: 300%;
   margin: 4vh 0vw;
+  color: rgb(210, 16, 52);
 }
 
 .content {
-  /*background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: cover;*/
+  padding-top: 35px;
 }
 
 .page:first-of-type {
@@ -42,7 +54,6 @@ h2 {
   text-align: center;
   min-height: 75vh;
   border-radius: 1%;
-  color: rgb(210, 16, 52);
   padding: 0vh 2vw;
 }
 
@@ -70,7 +81,7 @@ h2 {
 
 .more a:link, .more a:visited{
   color: rgb(210, 16, 52);
-} 
+}
 
 .more a:hover, .more a:active {
   color: rgb(255, 42, 111);
@@ -79,4 +90,15 @@ h2 {
 
 .route_animation {
   max-height: 300px;
+}
+
+.header {
+  background-image: url("../images/mill.jpg");
+  height: 400px;
+  line-height: 400px;
+}
+.header span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
