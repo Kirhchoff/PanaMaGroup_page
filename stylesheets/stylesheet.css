@@ -35,7 +35,7 @@ h2 {
   padding-top: 35px;
 }
 
-.page:first-of-type {
+.main-title {
   margin-top: 25vh;
 }
 .page:last-of-type {
@@ -94,6 +94,9 @@ h2 {
 
 .header {
   background-image: url("../images/mill.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: cover;
   height: 400px;
   line-height: 400px;
 }
@@ -101,4 +104,15 @@ h2 {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
+}
+
+.subpage {
+  margin-top: 5vh;
+  font-family: "Lato", "Times New Roman", Georgia;
+  padding: 0vh 2vw;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  font-size: 110%;
+  text-indent: 7vw;
+  min-height: 125vh;
 }
