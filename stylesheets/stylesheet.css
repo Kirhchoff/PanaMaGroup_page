@@ -96,10 +96,18 @@ h2 {
   background-image: url("../images/mill.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: cover;
-  height: 400px;
+  min-height: 400px;
   line-height: 400px;
 }
+
+@media screen and (min-width: 1600px)
+{
+  .header {
+    background-position: center-center;
+    background-size: contain;
+  }
+}
+
 .header span {
   display: inline-block;
   vertical-align: middle;
