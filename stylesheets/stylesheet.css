@@ -80,19 +80,19 @@ h3 {
   margin-left: 3vw;
 }
 
+.page a:link, .page a:visited {
+  color: rgb(210, 16, 52);
+  text-decoration: none;
+}
+
+.page a:hover, .page a:active {
+  color: rgb(255, 42, 111);
+}
+
 .page .more {
   margin-right: 5vw;
   margin-top: 20px;
   text-align: right;
-}
-
-.more a:link, .more a:visited{
-  color: rgb(210, 16, 52);
-}
-
-.more a:hover, .more a:active {
-  color: rgb(255, 42, 111);
-  text-decoration: none;
 }
 
 .route_animation {
