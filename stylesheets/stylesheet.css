@@ -1,6 +1,18 @@
 @import url(fonts.css);
 @import url(navigation.css);
 
+h2 {
+  font-family: "Della Respira", "Times New Roman", Georgia;
+  font-size: 300%;
+  color: rgb(210, 16, 52);
+}
+
+h4 {
+  font-family: "BananaYeti", "Times New Roman", Georgia;
+  font-size: 200%;
+  color: #000;
+}
+
 .title h1{
   font-family: "BananaYeti", "Times New Roman", Georgia;
   font-size: 1150%;
@@ -22,18 +34,6 @@
 .title {
   text-align: center;
   color: rgb(210, 16, 52);
-}
-
-h2 {
-  font-family: "Della Respira", "Times New Roman", Georgia;
-  font-size: 300%;
-  color: rgb(210, 16, 52);
-}
-
-h3 {
-  font-family: "BananaYeti", "Times New Roman", Georgia;
-  font-size: 200%;
-  color: #000;
 }
 
 .content {
