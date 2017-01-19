@@ -133,9 +133,8 @@ h4 {
 }
 
 .subpage {
-  margin-top: 5vh;
   font-family: "Lato", "Times New Roman", Georgia;
-  padding: 0vh 2vw;
+  padding: 5vh 2vw 0vh 2vw;
   text-align: justify;
   color: rgb(0, 0, 0);
   font-size: 110%;
