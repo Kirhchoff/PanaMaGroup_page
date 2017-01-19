@@ -134,6 +134,53 @@ h4 {
   text-indent: 7vw;
   min-height: 125vh;
 }
+
+.people {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.person {
+  flex: 1 1 34%;
+  margin: 3px;
+  padding: 10px;
+  border-width: 1px 3px 3px 1px;
+  border-style: solid;
+  border-color: rgba(3, 3, 3, 0.85);
+  border-radius: 15px;
+  background-color: rgba(0, 82, 147, 0.5);
+  background: -webkit-linear-gradient(left top, rgba(200, 200, 255, 0.2), rgba(0, 82, 147, 0.85));
+  background: -o-linear-gradient(bottom right, rgba(200, 200, 255, 0.2), rgba(0, 82, 147, 0.85));
+  background: -moz-linear-gradient(bottom right, rgba(200, 200, 255, 0.2), rgba(0, 82, 147, 0.85)); 
+  background: linear-gradient(to bottom right, rgba(200, 200, 255, 0.2), rgba(0, 82, 147, 0.85));
+}
+
+.person:hover {
+  background-color: rgba(0, 82, 147, 0.85);
+  background: -webkit-linear-gradient(left top, rgba(200, 200, 255, 0.5), rgba(0, 82, 147, 1));
+  background: -o-linear-gradient(bottom right, rgba(200, 200, 255, 0.5), rgba(0, 82, 147, 1));
+  background: -moz-linear-gradient(bottom right, rgba(200, 200, 255, 0.5), rgba(0, 82, 147, 1)); 
+  background: linear-gradient(to bottom right, rgba(200, 200, 255, 0.5), rgba(0, 82, 147, 1));
+}
+
+.person img {
+  width: 40%;
+  float: left;
+  margin-right: 6px;
+  border-radius: 8px;
+}
+
+.person p {
+  text-align: justify;
+  color: #222;
+  text-indent: 2vw;
+}
+.person:hover p {
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  text-indent: 2vw;
+}
 /**********SUBPAGE END********/
 
 .page .contact-intro{
